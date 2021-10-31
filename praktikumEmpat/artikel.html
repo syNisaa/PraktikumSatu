@@ -1,66 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar HTML5</title>
 </head>
 
-<body style="width: 600px; margin: auto; border: 1px solid black; padding: 10px;">
-    <section style="display: grid; grid-template-columns: 20% 60% auto; ">
-        <div class="foto">
-            <img src="anisa.png" alt="Anisa poto" style="width: 70%; margin-top: 25px;">
-        </div>
+<!-- Hasil Validator : 3 Warning. Untuk setiap article harus ada h2-h6 nya -->
 
-        <div class="profile">
-            <table>
-                <tr>
-                    <td><h1><b>Profile Name</b></h1></td>
-                </tr>
-                <tr>
-                    <td>Blackfriars Road</td>
-                </tr>
-                <tr>
-                    <td>Ludgate Hous</td>
-                </tr>
-                <tr>
-                    <td>Indonesia</td>
-                </tr>
-                <tr>
-                    <td><b>Email : </b> anisaaabcd@gmail.com</td>
-                </tr>
-                <tr>
-                    <td><b>Telphone : </b> 083895461608</td>
-                </tr>
-            </table>
-        </div>
+<body style="width: 700px; margin: auto; ">
+    <fieldset>
+        <legend>Directory Profile</legend>
 
-        <div class="category">
-            <h3>Categories</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-    </section>
-    <article>
-        <br><hr><br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, possimus quis delectus ad dolorum quae dicta iusto quisquam reiciendis ipsam perspiciatis, repellat consequatur nisi beatae cumque suscipit aut necessitatibus atque.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et consectetur officiis distinctio, aspernatur inventore, esse eos corrupti cum libero quam autem minima illum asperiores maiores, vero sequi quod deserunt!</p>
-    </article>
-    
-    <hr>
+        <section style="display: grid; grid-template-columns: 25% 55% auto; ">
+            <div class="foto">
+                <img src="htmlpro.jpg" alt="Anisa poto" style="width: 90%; margin-top: 25px;">
+            </div>
 
-    <section style="display: grid; grid-template-columns: 30% 30% auto;">
-        <div class="video">
+            <div class="profile">
 
-        </div>
+                <h1><b>Profile Name</b></h1>
+                <p> Blackfriars Road</p>
+                <p> Ludgate Hous</p>
+                <p> Indonesia </p>
+                <p><b>Email : </b> anisaaabcd@gmail.com</p>
+                <p><b>Telphone : </b> 083895461608</p>
+            </div>
 
-        <div class="image">
+            <div class="category">
+                <h3>Categories</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </section>
+        <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, possimus quis delectus ad dolorum quae
+            dicta iusto quisquam reiciendis ipsam perspiciatis, repellat consequatur nisi beatae cumque suscipit aut
+            necessitatibus atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident natus earum
+            explicabo labore quidem, modi tempora accusantium vel quia, fugiat quam! Dolore praesentium reprehenderit,
+            blanditiis impedit ea obcaecati laudantium?
+        </article>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et consectetur officiis distinctio,
+            aspernatur inventore, esse eos corrupti cum libero quam autem minima illum asperiores maiores, vero
+            sequi quod deserunt! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum dignissimos perferendis
+            minima. Fugit recusandae ut quae assumenda voluptatem unde consequuntur magnam pariatur, reprehenderit
+            facilis libero ipsum nostrum maxime qui eaque?
+        </article><br>
 
-        </div>
 
-        <div class="audio">
-            
-        </div>
-    </section>
+
+        <section style="display: grid; grid-template-columns: 30% 30% auto;">
+            <div class="video">
+                <iframe width="210" src="https://www.youtube.com/embed/NBZ9Ro6UKV8" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="image">
+                <img src="htmlpro.jpg" alt="Programming" style=" margin-left:15px;width: 180px; height: 150px;">
+            </div>
+
+            <div class="web" style="border: 1px solid black; text-align: center; margin-bottom: 4px;">
+                <br> <img src="websiteee.jpg" style="width:15px" alt="Iframe Website"><a style="margin-left: 5px;"
+                    href="https://www.w3schools.com/html/">Pengertian HTML - W3 School</a>
+                <br><br><img src="pdf.png" style="width:15px" alt="Iframe PDF"><a style="margin-left: 5px;"
+                    href="tugasAnisa.pdf">Tugas 1 Anisa - Perkembangan Website</a>
+                <br><br> <img src="websiteee.jpg" style="width:15px" alt="Iframe Website"><a style="margin-left: 5px;"
+                    href="https://www.merdeka.com/trending/pengertian-html-lengkap-dengan-fungsi-dan-sejarah-kemunculannya-kln.html">HTML
+                    adalahh - Merdeka.com</a>
+            </div>
+        </section>
+    </fieldset>
 </body>
 
 </html>
