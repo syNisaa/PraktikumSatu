@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(183, 183, 245);
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    header {
+        background-color: rgb(254, 255, 180);
+        padding: 10px;
+        height: 57px;
+        width: 98.5%;
+        float: right;
+    }
+
+    nav {
+        background-color: rgb(255, 189, 222);
+        float: left;
+        margin-top: 7px;
+        padding: 10px;
+        width: 273px;
+        height: 399px;
+    }
+
+    article {
+        background-color: rgb(255, 239, 239);
+        float: right;
+        width: 1020px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        height: 420px;
+        font-display: center;
+    }
+
+    footer {
+        background-color: rgb(235, 238, 200);
+        height: 57px;
+        padding: 10px;
+        width: 98.5%;
+        float:right;
+    }
+
+    .grid{
+        margin: 110px;
+        display: grid;
+        grid-template-columns: 30% 30% auto;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+        <nav>Nav</nav>
+        <article><p style="text-align: center; margin-top: 7%;">Article</p>
+            <div class="grid">
+                <img src="grid.jpeg" alt="" style="width: 295px; margin-right: 13px;">
+                <img src="grid.jpeg" alt="" style="width: 295px; margin-right: 13px;">
+                <img src="grid.jpeg" alt="" style="width: 295px; margin-right: 13px;">
+            </div>
+        </article>
+        <footer>Footer</footer>
+    </div>
+
+</body>
+
+</html>
