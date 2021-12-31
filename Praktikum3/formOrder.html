@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Order</title>
+</head>
+
+<!-- Finish - Tanpa Eror -->
+
+<body style="width: 660px; margin: auto; border: 2px solid black; margin-top: 5px; background-color: #ebedeb; padding-left: 20px; padding-right: 20px; ">
+    <div class="content">
+        <p style="font-size: 25px; text-align: center;"><b> Black Goose Bistro | Pizza On Demand </b></p><hr>
+        <p style="font-size: 18px; text-align: center;">Our 12" wood-fired pizza are available for delivery. build your
+            custom pizza and well deliver it within an hour</p>
+        <table>
+            <tr>
+                <td><img src="asset/pizza1.jpg" alt="pizza" style="width: 215px;"></td>
+                <td><img src="asset/pizza2.jpg" alt="pizza" style="width: 215px;"></td>
+                <td><img src="asset/pizza3.jpg" alt="pizza" style="width: 215px;"></td>
+            </tr>
+        </table>
+        <p style="font-size: 18px; text-align: center;">Your Information</p>
+        <form>
+            <div class="info" style=" margin-left:50px;">
+                <table>
+                    <tr>
+                        <td>Nama :</td>
+                        <td><input type="text" style="width: 230%;" placeholder="Your Name "></td>
+                    </tr>
+                    <tr>
+                        <td>Address :</td>
+                        <td><input type="text" style="width: 230%;" placeholder="Your Address"></td>
+                    </tr>
+                    <tr>
+                        <td>Telphone Number :</td>
+                        <td><input type="text" style="width: 230%;" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="text" style="width: 230%;" placeholder="Email Address"></td>
+                    </tr>
+                </table>
+            </div><br><hr><br>
+
+            <h3 style="text-align: center;">Design Your Dream Pizza</h3>
+            <h4>Pizza Specs | Crust(Choose One)</h4>
+            <input type="radio" name="crust" >Classic White <br>
+            <input type="radio" name="crust" >Multigrain <br>
+            <input type="radio" name="crust" >Cheese-stuffed crust <br>
+            <input type="radio" name="crust" >Glutten Free <br>
+
+            <h4>Topiings(Choose as many as you want)</h4>
+            <input type="checkbox" name="a" id="n">Red Sauce
+            <input type="checkbox" name="b" id="m">Mozzarella Cheese<br>
+            <input type="checkbox" name="c" id="l">white Sauce 
+            <input type="checkbox" name="d" id="k">Pepperroni <br>
+            <input type="checkbox" name="e" id="j">Mushrooms
+            <input type="checkbox" name="f" id="i">Pepper
+            <input type="checkbox" name="g" id="h">Anchovies
+
+            <h4>Number <br>How Many Pizza: <input type="number" name="jml" id="jml" style="width: 25px;" min="1" max="6"></h4>
+            <button style="width: 60%; background-color: #38b559; "><a href="/xampp2/htdocs/pemrogramanwebNf/sttNf/praktikum3/gambar2_form.html"> Bring Me A Pizza!</a></button>
+            <button style="width: 39%; background-color: #b8b8b8;" type="reset" value="start over">Cancel</button>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>
