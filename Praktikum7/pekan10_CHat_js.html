@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Praktikum Chat</title>
+</head>
+<style>
+    .chat {
+        width: 100%;
+        height: 200px;
+        border: solid 2px black;
+    }
+</style>
+
+<body>
+    <script>
+        function send() {
+            var psn = document.getElementById("massage").value;
+            // document.write(psn)
+            document.getElementById("chat").innerHTML += psn + "<br>";
+            document.getElementById("massage").value = "";
+        }
+    </script>
+    <div class="container"><br>
+        <hr><h4 style="text-align: center;">Praktikum pembuatan Aplikasi Chat</h4><hr><br>
+        <div class="chat" id="chat"></div>
+        <br>
+        <div class="input-group flex-nowrap">
+            <input type="text" name="massage" id="massage" class="form-control" placeholder="Enter Your Massage"
+                aria-describedby="basic-addon1">
+            <button onclick="send()">Kirim Pesan</button>
+        </div>
+    </div>
+</body>
+
+</html>

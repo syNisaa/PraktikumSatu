@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Kalkulator penjumlahan</title>
+</head>
+
+<body>
+    
+    <div class="container" style="text-align: center;">
+        <div class="form"><br>
+            <h4 style="text-align: center;">Penjumlahan 2 bilangan</h4>
+            <input type="text" name="bilangan1" id="bilangan1" value="" placeholder="Masukan Bilangan pertama" class="form-control" aria-describedby="addon-wrapping">
+            <br>
+            <p style="text-align: center;"><b>+</b></p><br>
+            <input type="text" name="bilangan2" id="bilangan2" value="" placeholder="Masukan Bilangan Kedua" class="form-control" aria-describedby="addon-wrapping" onchange="hitungbilangan()">
+            <br><br><b>Hasil Penjumlahan 2 Bilangan : </b>
+            <p  id="hasil"></p>
+        </div>
+    </div>
+    <script>
+        function hitungbilangan(){
+           
+            var bil1= Number(document.getElementById("bilangan1").value);
+            var bil2= Number(document.getElementById("bilangan2").value);
+            
+            var hasil2 = bil1 + bil2 ;
+            
+            console.log(bil1 + bil2)
+            console.log(hasil2)
+            
+            document.getElementById("hasil").innerHTML=hasil2;
+        }
+    </script>
+</body>
+
+</html>
